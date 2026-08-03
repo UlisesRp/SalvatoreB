@@ -1,31 +1,32 @@
-DIGITAL SALVATORE — SITIO MULTIPÁGINA
+DIGITAL SALVATORE — V3 EDITORIAL / CV DIGITAL
 
-Archivos principales:
-- index.html
-- sobre-mi.html
-- servicios.html
-- proyectos.html
-- blog.html
-- contacto.html
+Estructura:
+- index.html       Inicio / marca personal
+- sobre-mi.html    Perfil y trayectoria
+- proyectos.html   Portafolio filtrable (34 proyectos públicos de 35 documentados)
+- blog.html        Contenido / blog / video
+- contacto.html    Contacto
 - styles.css
 - script.js
+- projects-data.js
+- assets/img/*
+- assets/salvador-loop.mp4
 
-Para verlo:
-1. Abre index.html en el navegador.
-2. Para publicarlo, sube toda la carpeta conservando la estructura.
+DECISIONES DE ESTA VERSIÓN
+- Se retiró "Servicios" del menú y del flujo principal, tal como pidió Salvador.
+- El sitio se orienta a CV digital + portafolio ejecutivo + marca personal de creador tech.
+- Se usaron únicamente fotografías entregadas por el cliente sin marcas visibles de Remini/Lensa.
+- El proyecto restringido del portafolio no aparece en la versión pública.
+- Los nombres de organizaciones y métricas provienen del portafolio entregado.
 
-Pendientes antes de publicar:
-- Sustituir enlaces de LinkedIn y WhatsApp.
-- Confirmar nombres/logotipos de clientes autorizados.
-- Cambiar placeholders y textos no validados.
-- Conectar el formulario a correo/Formspree/EmailJS o backend.
-- Agregar fotografía profesional de Salvador si se desea.
+ANTES DE PUBLICAR COMO VERSIÓN FINAL
+1. Confirmar permiso para mostrar nombres de clientes/organizaciones.
+2. Confirmar métricas y redacción de casos.
+3. Reemplazar enlaces definitivos de LinkedIn y WhatsApp.
+4. Definir si "Digital Salvatore" será nombre final.
+5. Agregar servicios cuando Salvador quiera activarlos.
+6. Sustituir artículos "Próximamente" por contenido real.
 
-El diseño incluye:
-- navegación multipágina;
-- animaciones al hacer scroll;
-- contadores;
-- tarjetas con efecto de inclinación;
-- parallax sutil;
-- menú móvil;
-- diseño responsive.
+GITHUB PAGES
+Sube todos los archivos conservando la estructura.
+Settings > Pages > Deploy from a branch > main > /root.

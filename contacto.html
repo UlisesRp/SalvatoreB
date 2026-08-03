@@ -1,30 +1,77 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contacto | Digital Salvatore</title><link rel="stylesheet" href="styles.css"></head><body>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Contacto profesional de Salvador Bautista.">
+<meta name="theme-color" content="#0b1017">
+<title>Contacto | Digital Salvatore</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
 <a class="skip-link" href="#contenido">Ir al contenido</a>
-<div class="noise"></div>
+<div class="reading-progress" aria-hidden="true"><span></span></div>
 <header class="site-header">
-  <nav class="nav" aria-label="Navegación principal">
-    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>Digital Salvatore</span></a>
-    <button class="menu-toggle" aria-expanded="false" aria-label="Abrir menú">☰</button>
-    <div class="nav-links">
-      <a href="index.html">Inicio</a>
-      <a href="sobre-mi.html">Sobre mí</a>
-      <a href="servicios.html">Servicios</a>
-      <a href="proyectos.html">Proyectos</a>
-      <a href="blog.html">Blog</a>
-      <a class="nav-cta" href="contacto.html">Contacto</a>
-    </div>
+  <nav class="nav shell" aria-label="Navegación principal">
+    <a class="brand" href="index.html" aria-label="Digital Salvatore, inicio">
+      <span class="brand-symbol">S</span>
+      <span class="brand-copy"><b>DIGITAL</b><strong>SALVATORE</strong></span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-label="Abrir menú"><i></i><i></i></button>
+    <div class="nav-links"><a class="" href="index.html">Inicio</a><a class="" href="sobre-mi.html">Perfil</a><a class="" href="proyectos.html">Proyectos</a><a class="" href="blog.html">Contenido</a><a class="active" href="contacto.html">Contacto</a></div>
   </nav>
 </header>
-<main id="contenido"><section class="page-hero"><div class="container reveal"><div class="breadcrumb">Inicio / Contacto</div><span class="eyebrow">Contacto</span><h1 class="display">Conversemos sobre el <span class="gradient-text">siguiente paso.</span></h1><p class="lead">Comparte el contexto de tu reto y revisamos si una mentoría, capacitación o consultoría es la ruta adecuada.</p></div></section>
-<section class="section"><div class="container contact-grid"><div class="contact-card reveal"><h2>Datos de contacto</h2><p class="section-copy">Sustituye estos datos por los enlaces definitivos antes de publicar.</p><div class="contact-list"><a href="mailto:salvador.bautista@datasystem.com.mx"><strong>Correo</strong><br>salvador.bautista@datasystem.com.mx</a><a href="#"><strong>LinkedIn</strong><br>Salvador Bautista</a><a href="#"><strong>WhatsApp</strong><br>Contacto directo</a></div></div><form class="form contact-card reveal"><label>Nombre<input name="name" required placeholder="Tu nombre"></label><label>Correo<input name="email" type="email" required placeholder="correo@ejemplo.com"></label><label>¿En qué necesitas apoyo?<select name="service" style="width:100%;border:1px solid var(--line);background:#0b0d12;color:white;border-radius:14px;padding:1rem"><option>Mentoría</option><option>Capacitación</option><option>Consultoría</option><option>Conferencia</option></select></label><label>Mensaje<textarea name="message" required placeholder="Cuéntame brevemente el contexto"></textarea></label><button class="btn btn-primary" type="submit">Preparar mensaje</button><div class="form-status" aria-live="polite"></div></form></div></section></main>
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div><a class="brand" href="index.html"><span class="brand-mark"></span><span>Digital Salvatore</span></a><p class="section-copy">Tecnología, liderazgo e inteligencia artificial explicados con claridad, experiencia y sentido práctico.</p></div>
-      <div><h4>Explora</h4><div class="footer-links"><a href="sobre-mi.html">Sobre mí</a><a href="servicios.html">Servicios</a><a href="proyectos.html">Proyectos</a></div></div>
-      <div><h4>Conecta</h4><div class="footer-links"><a href="blog.html">Blog</a><a href="contacto.html">Contacto</a><a href="#">LinkedIn</a></div></div>
+
+<main id="contenido">
+<section class="contact-hero">
+  <div class="shell contact-hero-grid">
+    <div class="reveal">
+      <span class="micro-label">CONTACTO</span>
+      <h1>Hablemos<br>con contexto.</h1>
+      <p>Comparte el reto, el proyecto o la conversación que quieres abrir. Esta primera versión deja preparados los canales para conectar.</p>
     </div>
-    <div class="footer-bottom"><span>© <span data-year></span> Digital Salvatore. Todos los derechos reservados.</span><span>Innovación · Ética · Adaptabilidad</span></div>
+    <figure class="reveal"><img src="assets/img/profile.jpg" alt="Salvador Bautista"></figure>
+  </div>
+</section>
+
+<section class="contact-body">
+  <div class="shell contact-layout">
+    <div class="contact-details reveal">
+      <span class="section-index">DATOS</span>
+      <a href="mailto:salvador.bautista@datasystem.com.mx"><small>EMAIL</small><strong>salvador.bautista@datasystem.com.mx</strong><i>↗</i></a>
+      <a href="#" class="placeholder-link"><small>LINKEDIN</small><strong>Salvador Bautista</strong><i>↗</i></a>
+      <a href="#" class="placeholder-link"><small>WHATSAPP</small><strong>Agregar enlace definitivo</strong><i>↗</i></a>
+    </div>
+    <form class="contact-form reveal" id="contact-form">
+      <label><span>Nombre</span><input name="name" required autocomplete="name" placeholder="Tu nombre"></label>
+      <label><span>Correo</span><input name="email" required type="email" autocomplete="email" placeholder="correo@ejemplo.com"></label>
+      <label><span>Contexto</span><textarea name="message" required placeholder="Cuéntame brevemente qué quieres conversar"></textarea></label>
+      <button type="submit" class="button dark">Preparar correo <span>↗</span></button>
+      <p class="form-note">El botón abre tu aplicación de correo; no almacena información.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="shell footer-top">
+    <div>
+      <div class="footer-wordmark">SALVATORE</div>
+      <p>Experiencia tecnológica, liderazgo y comunicación ejecutiva.</p>
+    </div>
+    <div class="footer-nav">
+      <a href="sobre-mi.html">Perfil</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="blog.html">Contenido</a>
+      <a href="contacto.html">Contacto</a>
+    </div>
+  </div>
+  <div class="shell footer-bottom">
+    <span>© <span data-year></span> Digital Salvatore.</span>
+    <span>Innovación · Ética · Adaptabilidad</span>
   </div>
 </footer>
 <script src="script.js"></script>
